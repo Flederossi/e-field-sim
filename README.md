@@ -4,4 +4,5 @@ The program simulates the normalized electric vector field given an input of a v
 ![Alt Text](https://github.com/Flederossi/e-field-sim/blob/main/screen.png)
 
 For every point charge in the simulation the resulting vector at a specific point is calculated using:
-$$E(r) = q \cdot \frac{r}{||r||^{3}}$$
+
+$$\vec{E}(\vec{r}) = q \cdot \frac{\vec{r}}{||\vec{r}||^{3}}$$
