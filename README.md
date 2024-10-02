@@ -9,4 +9,4 @@ For every point charge in the simulation the resulting vector at a specific poin
 
 $$\vec{E}(\vec{r}) = q \cdot \frac{\vec{r}}{\|\vec{r}\|^{3}}$$
 
-Where $$\vec{r}$$ is the vector from the current point charge to the grid point and $$q$$ is the electrric charge (in this case -1 -> negative | 1 -> positive).
+Where $$\vec{r}$$ is the vector from the current point charge to the grid point and $$q$$ is the electric charge of the point charge. (In the case of the simulation: $-1 \equiv "-"$ | $1 \equiv "+"$)
