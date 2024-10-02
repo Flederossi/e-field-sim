@@ -3,6 +3,10 @@ The program simulates the normalized electric vector field given an input of a v
 
 ![Alt Text](https://github.com/Flederossi/e-field-sim/blob/main/screen.png)
 
-For every point charge in the simulation the resulting vector at a specific point is calculated using:
+## Calculations
 
-$$\vec{E}(\vec{r}) = q \cdot \frac{\vec{r}}{||\vec{r}||^{3}}$$
+For every point charge in the simulation the resulting vector at a specific point on the grid is calculated using:
+
+$$\vec{E}(\vec{r}) = q \cdot \frac{\vec{r}}{\|\vec{r}\|^{3}}$$
+
+Where $$\vec{r}$$ is the vector from the current point charge to the grid point and $$q$$ is the electrric charge (in this case -1 -> negative | 1 -> positive).
