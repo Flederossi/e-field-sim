@@ -3,6 +3,10 @@ The program simulates the normalized electric vector field given an input of a v
 
 ![Alt Text](https://github.com/Flederossi/e-field-sim/blob/main/screen.png)
 
+For better overview, the alpha channel can be manipulated based on the standardized magnitude calculation before the normalization. The following plot can be enabled in the code (```mag_plot = True```).
+
+![Alt Text](https://github.com/Flederossi/e-field-sim/blob/main/screen2.png)
+
 ## Calculations
 
 For every point charge in the simulation the force vector at a specific point on the grid acting on a standardized test charge is calculated using:
