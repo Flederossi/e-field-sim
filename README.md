@@ -9,6 +9,6 @@ For every point charge in the simulation the force vector at a specific point on
 
 $$\vec{E}(\vec{r}) = q \cdot \frac{\vec{r}}{\|\vec{r}\|^{3}}$$
 
-Where $$\vec{r}$$ is the vector from the current point charge to the grid point and $$q$$ is the electric charge of the point charge. (In the case of the simulation: $q = -1 \equiv "-"$ and $q = 1 \equiv "+" \rightarrow$ magnitude can be ignored because of normalization)
+Where $$\vec{r}$$ is the vector from the current point charge to the grid point and $$q$$ is the electric charge of the point charge. (In the case of the simulation: $q = -1\,C \equiv "-"$ and $q = 1\,C \equiv "+" \rightarrow$ magnitude can be ignored because of normalization)
 
 The force vectors to every point charge from one point on the grid are added together resulting in the final vector for this point in space. This vector then gets normalized.
